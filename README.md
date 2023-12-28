@@ -1,4 +1,4 @@
-<img src="banner.svg" width="100%">
+[<img src="banner.svg" width="100%"/>](# "Hi 🖐️")
 
 ## Currently...
 
@@ -55,19 +55,19 @@
 
 ## Networks
 
-[![linkedin]](https://www.linkedin.com/in/andrecat/ "LinkedIn profile")
-[![itchio]](https://andre-cat.itch.io "Itch.io profile")
+[![linkedin]](https://www.linkedin.com/in/andrecat/ "🔗 LinkedIn profile")
+[![itchio]](https://andre-cat.itch.io "🔗 Itch.io profile")
 
 ---
 
-<img src="logo.svg">
+[<img src="logo.svg"/>](# "Andrecat")
 
 <!-- Icons -->
 [cat]: cat.svg 
 
 <!-- Languages -->
-[java]: icons/skills/java.svg "Java"
-[python]: icons/skills/python.svg "Python"
+[java]: icons/skills/java.svg "Java
+[python]: icons/skills/python.svg "Python "
 
 [react]: icons/skills/react.svg "React"
 [typescript]: icons/skills/typescript.svg "TypeScript"
@@ -88,5 +88,5 @@
 [itchio]: icons/networks/itch-io.svg
 
 <!-- Projects -->
-[animal-word-match]: https://andrecat.itch.io/animalwordmatch "AnimalWordMatch on itch.io" 
-[sweet-rebellion]: https://andrecat.itch.io/sweetrebellion "Sweet Rebellion on itch.io"
+[animal-word-match]: https://andrecat.itch.io/animalwordmatch "🐻 Animal Word Match on itch.io" 
+[sweet-rebellion]: https://andrecat.itch.io/sweetrebellion "🍬 Sweet Rebellion on itch.io"
