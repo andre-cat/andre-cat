@@ -66,8 +66,8 @@
 [cat]: cat.svg 
 
 <!-- Languages -->
-[java]: icons/skills/java.svg "Java
-[python]: icons/skills/python.svg "Python "
+[java]: icons/skills/java.svg "Java"
+[python]: icons/skills/python.svg "Python"
 
 [react]: icons/skills/react.svg "React"
 [typescript]: icons/skills/typescript.svg "TypeScript"
