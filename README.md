@@ -11,7 +11,7 @@
 - Data structures
 - [My skills](#skills)  
 
-:email: **How to reach me:** [andrecat-@outlook.com](andrecat-@outlook.com "Send me an email :D")  
+:email: **How to reach me:** andrecat-@outlook.com  
 :dizzy: **Fun fact:** I’m known as a fire extinguisher 🔥🧯 in programming because I’m really good at fixing critical bugs. A colleague from [Sweet Rebellion][sweet-rebellion] and [Animal Word Match][animal-word-match] games gave me that nickname.
 
 ## Skills
