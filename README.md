@@ -1,4 +1,4 @@
-<img src="stars.svg" width="100%">
+<img src="banner.svg" width="100%">
 
 ## Currently...
 
@@ -26,8 +26,6 @@
 >
 > ![git] ![markdown] ![mermaid]
 
-<h6><sup><img src="cat.svg"/>&hairsp; andrecat | 2023</sup></h6>
-
 <!-- Icons -->
 [cat]: cat.svg
 
@@ -52,3 +50,5 @@
 <!-- Projects -->
 [animal-word-match]: https://andrecat.itch.io/animalwordmatch
 [sweet-rebellion]: https://andrecat.itch.io/sweetrebellion
+
+<img src="logo.svg">
