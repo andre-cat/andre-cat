@@ -7,8 +7,8 @@
 :speech_balloon: **Ask me about...:**
 
 - Object Oriented Programming
-- Design Patterns
-- Data Structures
+- Design patterns
+- Data structures
 - [My skills](#skills)  
 
 :email: **How to reach me:** andrecat-@outlook.com  
