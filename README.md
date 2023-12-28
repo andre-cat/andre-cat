@@ -4,51 +4,89 @@
 
 :hammer_and_wrench: **I'm working on** [Galactic Gazette](https://github.com/GalacticGazette) project  
 :brain: **I´m learning about** game development with Unity  
-:grey_question: **Ask me about** [my skills](#skills)  
+:speech_balloon: **Ask me about...:**
+
+- Object Oriented Programming
+- Design Patterns
+- Data Structures
+- [My skills](#skills)  
+
 :email: **How to reach me:** andrecat-@outlook.com  
-:dizzy: **Fun fact:** I call myself a fire extinguisher :fire::fire_extinguisher:<br>because a fellow [Sweet Rebellion][sweet-rebellion] and [Animal Word Match][animal-word-match]<br>teammate was always calling me to fix critical bugs
+:dizzy: **Fun fact:** I call myself a fire extinguisher :fire::fire_extinguisher: because a fellow [Sweet Rebellion][sweet-rebellion] and [Animal Word Match][animal-word-match] teammate was always calling me to fix critical bugs
 
 ## Skills
 
-> :gear: Back-End
+> :gear: **Back-End**
 >
-> ![java] ![python]
+> |![java]|![python]|
+> |:-----:|:-------:|
+> |Java   |Python   |
 
-> :framed_picture: Front-End
+> :framed_picture: **Front-End**
+> |![react] |![typescript]|
+> |:-------:|:-----------:|
+> |React    |TypeScript   |
+>    
+> |![html]|![css]|![javascript]|
+> |:-----:|:----:|:-----------:|
+> |HTML   |CSS   |JavaScript   |
+
+> :joystick: **Game Development**
 >
-> ![react] ![typescript] ![html] ![css] ![javascript]
+> |![unity]|![csharp]|![blender]|
+> |:------:|:-------:|:--------:|
+> |Unity   |C#       |Blender   |
 
-> :joystick: Game Development
+> :bulb: **Others**
+>> _Version control_
+>> |![git]|
+>> |:----:|
+>> |Git   |
 >
-> ![unity] ![csharp] ![blender]
-
-> :bulb: Other
+>> _Markup_
+>> |![markdown]|
+>> |:---------:|
+>> |Markdown   |
 >
-> ![git] ![markdown] ![mermaid]
+>> _Diagrams_
+>> |![mermaid]|
+>> |:--------:|
+>> |Mermaid   |
 
-<!-- Icons -->
-[cat]: cat.svg
+## Networks
 
-<!-- Languages -->
-[java]: icons/technologies/java.svg "Java"
-[python]: icons/technologies/python.svg "Python"
+[![linkedin]](https://www.linkedin.com/in/andrecat/ "LinkedIn profile")
+[![itchio]](https://andre-cat.itch.io "Itch.io profile")
 
-[react]: icons/technologies/react.svg "React"
-[typescript]: icons/technologies/typescript.svg "TypeScript"
-[html]: icons/technologies/html5.svg "HTML5"
-[css]: icons/technologies/css3.svg "CSS3"
-[javascript]: icons/technologies/javascript.svg "JavaScript"
-
-[unity]: icons/technologies/unity.svg "Unity"
-[csharp]: icons/technologies/csharp.svg "CSharp"
-[blender]: icons/technologies/blender.svg "Blender"
-
-[git]: icons/technologies/git.svg "Git"
-[markdown]: icons/technologies/markdown.svg "Markdown"
-[mermaid]: icons/technologies/mermaid.svg "Mermaid"
-
-<!-- Projects -->
-[animal-word-match]: https://andrecat.itch.io/animalwordmatch
-[sweet-rebellion]: https://andrecat.itch.io/sweetrebellion
+---
 
 <img src="logo.svg">
+
+<!-- Icons -->
+[cat]: cat.svg 
+
+<!-- Languages -->
+[java]: icons/skills/java.svg "Java"
+[python]: icons/skills/python.svg "Python"
+
+[react]: icons/skills/react.svg "React"
+[typescript]: icons/skills/typescript.svg "TypeScript"
+[html]: icons/skills/html5.svg "HTML5"
+[css]: icons/skills/css3.svg "CSS3"
+[javascript]: icons/skills/javascript.svg "JavaScript"
+
+[unity]: icons/skills/unity.svg "Unity"
+[csharp]: icons/skills/c-sharp.svg "CSharp"
+[blender]: icons/skills/blender.svg "Blender"
+
+[git]: icons/skills/git.svg "Git"
+[markdown]: icons/skills/markdown.svg "Markdown"
+[mermaid]: icons/skills/mermaid.svg "Mermaid"
+
+<!-- Networks -->
+[linkedin]: icons/networks/linkedin.svg
+[itchio]: icons/networks/itch-io.svg
+
+<!-- Projects -->
+[animal-word-match]: https://andrecat.itch.io/animalwordmatch "AnimalWordMatch on itch.io" 
+[sweet-rebellion]: https://andrecat.itch.io/sweetrebellion "Sweet Rebellion on itch.io"
