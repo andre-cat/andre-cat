@@ -1,21 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg">
-    <foreignObject width="100%" height="100%">
+<svg width="100%" height="14pt" xmlns="http://www.w3.org/2000/svg">
+    <foreignObject width="100%" height="14pt">
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
                 #logo {
                     display: flex;
+                    color: SlateGray;
                     align-items: center;
                     font-family: 'Consolas';
                     font-weight: bold;
-                    font-size: 13px;
-                    color: SlateGray;
-                    height: 15px;
-                    
+                    font-size: 10pt;
                 }
 
                 #cat {
-                    /*margin-bottom: 2px;*/
-                    margin-right: 8px;
+                    margin-right: 8pt;
                 }
             </style>
             <div id="logo">
