@@ -37,6 +37,7 @@
 
                 #hi {
                     font-size: 12vh;
+                    letter-spacing: 4px;
                 }
 
                 #title {
@@ -117,58 +118,58 @@
                 }
 
                 #little-stars {
-                    width: 1px;
-                    height: 1px;
+                    width: 2px;
+                    height: 2px;
                     background: transparent;
                     box-shadow: var(--lit-stars);
-                    animation: star-mov 150s linear infinite;
                     overflow: hidden;
+                    animation: star-mov 150s linear infinite;
                 }
 
                 #little-stars:after {
                     content: "";
                     position: absolute;
                     top: 2000px;
-                    width: 1px;
-                    height: 1px;
+                    width: 2px;
+                    height: 2px;
                     background: transparent;
                     box-shadow: var(--lit-stars);
                 }
 
                 #medium-stars {
-                    width: 2px;
-                    height: 2px;
+                    width: 4px;
+                    height: 4px;
                     background: transparent;
                     box-shadow: var(--med-stars);
-                    animation: star-mov 100s linear infinite;
                     overflow: hidden;
+                    animation: star-mov 100s linear infinite;
                 }
 
                 #medium-stars:after {
                     content: "";
                     position: absolute;
                     top: 2000px;
-                    width: 2px;
-                    height: 2px;
+                    width: 4px;
+                    height: 4px;
                     background: transparent;
                     box-shadow: var(--med-stars);
                 }
 
                 #big-stars {
-                    width: 3px;
-                    height: 3px;
-                    box-shadow: var(--big-stars);
+                    width: 6px;
+                    height: 6px;
                     background: transparent;
-                    animation: star-mov 50s linear infinite;
+                    box-shadow: var(--big-stars);
                     overflow: hidden;
+                    animation: star-mov 50s linear infinite;
                 }
 
                 #big-stars:after {
                     content: "";
                     position: absolute;
                     top: 2000px;
-                    width: 3px;
-                    height: 3px;
+                    width: 6px;
+                    height: 6px;
                     background: transparent;
                     box-shadow: var(--big-stars);
                 }
