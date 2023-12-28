@@ -2,68 +2,68 @@
 
 ## Currently...
 
-:hammer_and_wrench: **I'm working on** [Galactic Gazette](https://github.com/GalacticGazette) project  
-:brain: **I´m learning about** game development with Unity  
+:hammer_and_wrench: **I'm working on** [Galactic Gazette :man_astronaut:](https://github.com/GalacticGazette) project  
+:brain: **I´m learning about** front-end development  
 :speech_balloon: **Ask me about...:**
 
-- Object Oriented Programming
+- Object Oriented Programming (OOP)
 - Design patterns
 - Data structures
 - [My skills](#skills)  
 
-:email: **How to reach me:** andrecat-@outlook.com  
-:dizzy: **Fun fact:** I call myself a fire extinguisher :fire::fire_extinguisher: because a fellow [Sweet Rebellion][sweet-rebellion] and [Animal Word Match][animal-word-match] teammate was always calling me to fix critical bugs
+:email: **How to reach me:** [andrecat-@outlook.com](andrecat-@outlook.com "Send me an email :D")  
+:dizzy: **Fun fact:** I’m known as a fire extinguisher 🔥🧯 in programming because I’m really good at fixing critical bugs. A colleague from [Sweet Rebellion][sweet-rebellion] and [Animal Word Match][animal-word-match] games gave me that nickname.
 
 ## Skills
 
 > :gear: **Back-End**
 >
-> |![java]|![python]|
-> |:-----:|:-------:|
-> |Java   |Python   |
+> |[![java]](#)|[![python]](#)|
+> |:-:|:-:|
+> |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Java`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;`Python`&nbsp;&nbsp;&nbsp;&nbsp;|
 
 > :framed_picture: **Front-End**
-> |![react] |![typescript]|
-> |:-------:|:-----------:|
-> |React    |TypeScript   |
+> |[![react]](#)|[![typescript]](#)|
+> |:-:|:-:|
+> |&nbsp;&nbsp;&nbsp;&nbsp;`React`&nbsp;&nbsp;&nbsp;&nbsp;|`TypeScript`|
 >    
-> |![html]|![css]|![javascript]|
-> |:-----:|:----:|:-----------:|
-> |HTML   |CSS   |JavaScript   |
+> |[![html]](#)|[![css]](#)|[![javascript]](#)|
+> |:-:|:-:|:-:|
+> |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`HTML`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`CSS`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|`JavaScript`|
 
 > :joystick: **Game Development**
 >
-> |![unity]|![csharp]|![blender]|
-> |:------:|:-------:|:--------:|
-> |Unity   |C#       |Blender   |
+> |[![unity]](#)|[![c-sharp]](#)|[![blender]](#)|
+> |:-:|:-:|:-:|
+> |&nbsp;&nbsp;&nbsp;&nbsp;`Unity`&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`C#`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;`Blender`&nbsp;&nbsp;&nbsp;|
 
 > :bulb: **Others**
 >> _Version control_
->> |![git]|
+>> |[![git]](#)|
 >> |:----:|
->> |Git   |
+>> |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Git`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 >
 >> _Markup_
->> |![markdown]|
+>> |[![markdown]](#)|
 >> |:---------:|
->> |Markdown   |
+>> |&nbsp;`Markdown`&nbsp;|
 >
 >> _Diagrams_
->> |![mermaid]|
+>> |[![mermaid]](#)|
 >> |:--------:|
->> |Mermaid   |
+>> |&nbsp;&nbsp;&nbsp;`Mermaid`&nbsp;&nbsp;&nbsp;|
 
 ## Networks
 
-[![linkedin]](https://www.linkedin.com/in/andrecat/ "🔗 LinkedIn profile")
-[![itchio]](https://andre-cat.itch.io "🔗 Itch.io profile")
+[![linkedin]](https://www.linkedin.com/in/andrecat/ "LinkedIn profile 🔗")
+[![itchio]](https://andre-cat.itch.io "Itch.io profile 🔗")
 
 ---
 
-[<img src="logo.svg"/>](# "Andrecat")
+[![logo]](#)
 
 <!-- Icons -->
-[cat]: cat.svg 
+[logo]: logo.svg "Andrecat"
 
 <!-- Languages -->
 [java]: icons/skills/java.svg "Java"
@@ -76,7 +76,7 @@
 [javascript]: icons/skills/javascript.svg "JavaScript"
 
 [unity]: icons/skills/unity.svg "Unity"
-[csharp]: icons/skills/c-sharp.svg "CSharp"
+[c-sharp]: icons/skills/c-sharp.svg "CSharp"
 [blender]: icons/skills/blender.svg "Blender"
 
 [git]: icons/skills/git.svg "Git"
@@ -88,5 +88,5 @@
 [itchio]: icons/networks/itch-io.svg
 
 <!-- Projects -->
-[animal-word-match]: https://andrecat.itch.io/animalwordmatch "🐻 Animal Word Match on itch.io" 
-[sweet-rebellion]: https://andrecat.itch.io/sweetrebellion "🍬 Sweet Rebellion on itch.io"
+[animal-word-match]: https://andrecat.itch.io/animalwordmatch "GAME: 🐻 Animal Word Match" 
+[sweet-rebellion]: https://andrecat.itch.io/sweetrebellion "GAME: 🍬 Sweet Rebellion"
