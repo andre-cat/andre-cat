@@ -1,4 +1,4 @@
-<svg width="100%" height="450px" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg">
     <foreignObject width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
@@ -11,55 +11,64 @@
                     --big-stars: 269px 1765px var(--bsc), 861px 653px var(--bsc), 1861px 643px var(--bsc), 302px 1677px var(--bsc), 767px 1914px var(--bsc), 1355px 211px var(--bsc), 536px 271px var(--bsc), 425px 660px var(--bsc), 56px 1875px var(--bsc), 202px 1824px var(--bsc), 1731px 170px var(--bsc), 297px 920px var(--bsc), 583px 1244px var(--bsc), 1552px 1950px var(--bsc), 1234px 1914px var(--bsc), 678px 1076px var(--bsc), 1204px 809px var(--bsc), 1783px 1910px var(--bsc), 269px 1434px var(--bsc), 801px 164px var(--bsc), 1699px 1946px var(--bsc), 1609px 1992px var(--bsc), 1665px 1268px var(--bsc), 1625px 1894px var(--bsc), 687px 1077px var(--bsc), 838px 1456px var(--bsc), 362px 952px var(--bsc), 737px 1673px var(--bsc), 225px 1359px var(--bsc), 1242px 1825px var(--bsc), 475px 1683px var(--bsc), 1468px 1567px var(--bsc), 376px 1619px var(--bsc), 1546px 1470px var(--bsc), 754px 1720px var(--bsc), 772px 78px var(--bsc), 1631px 1177px var(--bsc), 1605px 1019px var(--bsc), 262px 1818px var(--bsc), 955px 395px var(--bsc), 1180px 655px var(--bsc), 884px 416px var(--bsc), 298px 591px var(--bsc), 1218px 1901px var(--bsc), 845px 1188px var(--bsc), 155px 133px var(--bsc), 809px 110px var(--bsc), 1248px 768px var(--bsc), 810px 631px var(--bsc), 1912px 1191px var(--bsc), 1369px 1089px var(--bsc), 1304px 1630px var(--bsc), 88px 188px var(--bsc), 1297px 337px var(--bsc), 1370px 68px var(--bsc), 310px 423px var(--bsc), 1554px 566px var(--bsc), 600px 1347px var(--bsc), 966px 995px var(--bsc), 1520px 202px var(--bsc), 719px 381px var(--bsc), 1512px 607px var(--bsc), 1088px 703px var(--bsc), 1398px 1385px var(--bsc), 1745px 26px var(--bsc), 902px 278px var(--bsc), 455px 1641px var(--bsc), 723px 121px var(--bsc), 1457px 1382px var(--bsc), 1650px 350px var(--bsc), 626px 853px var(--bsc), 492px 1950px var(--bsc), 934px 1950px var(--bsc), 133px 1279px var(--bsc), 1842px 1816px var(--bsc), 477px 1475px var(--bsc), 253px 1233px var(--bsc), 787px 496px var(--bsc), 1093px 346px var(--bsc), 177px 368px var(--bsc), 1551px 1567px var(--bsc), 456px 494px var(--bsc), 1583px 373px var(--bsc), 1065px 801px var(--bsc), 1776px 651px var(--bsc), 28px 614px var(--bsc), 1168px 243px var(--bsc), 545px 1845px var(--bsc), 635px 1034px var(--bsc), 1793px 1782px var(--bsc), 1987px 1171px var(--bsc), 1008px 1804px var(--bsc), 1849px 1010px var(--bsc), 129px 1503px var(--bsc), 1738px 1267px var(--bsc), 1013px 1832px var(--bsc), 505px 1323px var(--bsc), 1186px 1669px var(--bsc), 1189px 519px var(--bsc), 588px 652px var(--bsc);
                 }
 
+                @font-face {
+                    font-family: 'Roboto Mono';
+                    src: url('fonts/RobotoMono-Medium.ttf') format('truetype');
+                }
+
+                #cat-container {
+                    display: inline-block;
+                    overflow: hidden;
+                    background-color: transparent;
+                    height: 7vw;
+                }
+
                 #cat {
-                    transform: scale(3);
-                    margin-bottom: 10px;
+                    vertical-align: text-top;
+                    width: 100%;
+                    height: 100%;
                 }
 
                 #title-div {
                     position: absolute;
                     top: 50%;
-                    left: 6%;
-                    right: 6%;
+                    left: 4vw;
+                    right: 4vw;
                     transform: translate(0%, -50%);
                     text-align: center;
-                    color: white;
-                    font-family: 'Consolas';
-                    font-weight: bold;
-                    -webkit-text-stroke: 1px SlateGray;
+                    font-family: 'Roboto Mono', monospace;
+                    -webkit-text-stroke: 2px SlateGray;
+                    -webkit-text-fill-color: rgba(255,255,255,0);
                     paint-order: stroke fill;
-                    /*text-shadow:
-                    -1px  0   0 SlateGray,
-                     1px  0   0 SlateGray,
-                     0    1px 0 SlateGray,
-                     0   -1px 0 SlateGray;*/
+                    font-weight: 900;
                 }
 
                 #hi {
-                    font-size: 12vh;
-                    letter-spacing: 4px;
+                    font-size: 9vw;
+                    letter-spacing: 0px;
                 }
 
                 #title {
-                    font-size: 8vh;
+                    font-size: 6vw;
                     letter-spacing: 4px;
                     margin-top: 20px;
                     margin-bottom: 20px;
                 }
 
                 #subtitle {
-                    font-weight: normal;
-                    font-size: 5vh;
+                    font-size: 3vw;
                     -webkit-text-stroke: 0;
-                    color: SlateGray;
+                    -webkit-text-fill-color: LightSlateGray;
                 }
 
                 #fire {
+                    font-weight: 900;
                     background-image: linear-gradient(175deg, crimson, red, orangeRed, orange, gold, yellow);
                     background-clip: border-box;
                     background-size: 200% 400%;
                     font-family: 'Courier New';
                     font-stretch: 100%;
+                    -webkit-text-stroke: 0;
                     -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent;
                     -moz-background-clip: text;
@@ -105,6 +114,43 @@
                     80%  { filter: brightness(120%); }
                     90%  { filter: brightness(134%); }
                     100% { filter: brightness(100%); }
+                }
+
+                #random-colors {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    width: 120%;
+                    height: 120%;
+                    background: 
+                        radial-gradient(rgba(0, 250, 250, 0.075), transparent 70%),
+                        radial-gradient(rgba(0, 235, 251, 0.075), transparent 70%),
+                        radial-gradient(rgba(0, 219, 251, 0.075), transparent 70%),
+                        radial-gradient(rgba(0, 188, 252, 0.075), transparent 70%),
+                        radial-gradient(rgba(0, 157, 253, 0.075), transparent 70%),
+                        radial-gradient(rgba(0, 125, 253, 0.075), transparent 70%),
+                        radial-gradient(rgba(0, 94, 254, 0.075), transparent 70%),
+                        radial-gradient(rgba(0, 63, 254, 0.075), transparent 70%),
+                        radial-gradient(rgba(0, 32, 255, 0.075), transparent 70%),
+                        radial-gradient(rgba(0, 0, 255, 0.075), transparent 70%);
+                    background-size: 30vw 30vw;
+                    background-repeat: no-repeat;
+                    animation: background-animation 20s linear both infinite;
+                }
+
+                @keyframes background-animation {
+                    0%	{ background-position:	25% 36%, 	7% 19%, 	22% 43%, 	43% 6%, 	39% 92%, 	55% 61%, 	54% 23%, 	97% 36%, 	14% 35%, 	62% 89%; }
+                    10%	{ background-position:	71% 10%, 	90% 19%, 	28% 90%, 	56% 98%, 	21% 12%, 	56% 55%, 	2% 23%, 	85% 54%, 	79% 80%, 	70% 36%; }
+                    20%	{ background-position:	46% 38%, 	24% 95%, 	100% 92%, 	86% 88%, 	0% 84%, 	46% 55%, 	26% 72%, 	75% 67%, 	22% 57%, 	29% 9%; }
+                    30%	{ background-position:	70% 81%, 	60% 80%, 	75% 36%, 	67% 75%, 	93% 51%, 	81% 88%, 	60% 82%, 	97% 80%, 	12% 2%, 	71% 44%; }
+                    40%	{ background-position:	8% 98%, 	51% 68%, 	3% 87%, 	57% 68%, 	11% 75%, 	90% 49%, 	77% 43%, 	97% 91%, 	48% 11%, 	82% 71%; }
+                    50%	{ background-position:	52% 4%, 	8% 36%, 	89% 34%, 	38% 26%, 	0% 44%, 	7% 62%, 	82% 37%, 	54% 19%, 	78% 75%, 	61% 21%; }
+                    60%	{ background-position:	73% 79%, 	63% 19%, 	16% 24%, 	80% 8%, 	82% 4%, 	0% 64%, 	28% 45%, 	83% 14%, 	35% 94%, 	48% 30%; }
+                    70%	{ background-position:	97% 59%, 	4% 2%, 	9% 82%, 	28% 52%, 	95% 35%, 	28% 33%, 	65% 28%, 	38% 30%, 	46% 39%, 	38% 3%; }
+                    80%	{ background-position:	76% 61%, 	21% 90%, 	45% 55%, 	61% 28%, 	77% 89%, 	10% 82%, 	95% 39%, 	21% 77%, 	45% 53%, 	36% 61%; }
+                    90%	{ background-position:	77% 82%, 	82% 51%, 	10% 44%, 	77% 34%, 	93% 74%, 	83% 24%, 	93% 31%, 	67% 44%, 	12% 26%, 	59% 36%; }
+                    100% { background-position:	25% 36%, 	7% 19%, 	22% 43%, 	43% 6%, 	39% 92%, 	55% 61%, 	54% 23%, 	97% 36%, 	14% 35%, 	62% 89%; }
                 }
 
                 #stars {
@@ -183,21 +229,81 @@
                         transform: translateY(-2000px);
                     }
                 }
+
+                @media (max-width: 1200px) {
+                    #cat-container {
+                        height: 14vh;
+                    }
+                    
+                    #hi {
+                        font-size: 16vh;
+                    }
+
+                    #title {
+                        font-size: 12vh;
+                    }
+
+                    #subtitle {
+                        font-size: 8vh;
+                        font-weight: 100;
+                    }
+                }
+
+                @media (max-width: 800px) {
+                    #cat-container {
+                        height: 12vh;
+                    }
+                    
+                    #hi {
+                        font-size: 14vh;
+                    }
+
+                    #title {
+                        font-size: 10vh;
+                    }
+
+                    #subtitle {
+                        font-size: 6vh;
+                        font-weight: 300;
+                    }
+                }
+
+                @media (max-width: 400px) {
+                    #cat-container {
+                        height: 10vh;
+                    }
+                    
+                    #hi {
+                        font-size: 12vh;
+                    }
+
+                    #title {
+                        font-size: 8vh;
+                    }
+
+                    #subtitle {
+                        font-size: 4vh;
+                        font-weight: 500;
+                    }
+                }
             </style>
             <div id="stars">
+                <div id="random-colors"></div>
                 <div id="little-stars"></div>
                 <div id="medium-stars"></div>
                 <div id="big-stars"></div>
                 <div id="title-div">
                     <div id="hi">
                         Hi!
-                        <svg id="cat" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges" width="16" height="14" viewBox="0 0 16 14"><path fill="#C0C0C0" d="M3 0h1v1H3zm9 0h1v1h-1zM2 1h1v1H2zm1 0h1v1H3zm1 0h1v1H4zm7 0h1v1h-1zm1 0h1v1h-1zm1 0h1v1h-1zM1 2h1v1H1zm1 0h1v1H2z"/><path fill="#FFFFFF" d="M3 2h1v1H3z"/><path fill="#C0C0C0" d="M4 2h1v1H4zm1 0h1v1H5zm5 0h1v1h-1zm1 0h1v1h-1z"/><path fill="#FFFFFF" d="M12 2h1v1h-1z"/><path fill="#C0C0C0" d="M13 2h1v1h-1zm1 0h1v1h-1zM1 3h1v1H1z"/><path fill="#FFFFFF" d="M2 3h1v1H2zm1 0h1v1H3zm1 0h1v1H4z"/><path fill="#C0C0C0" d="M5 3h1v1H5zm5 0h1v1h-1z"/><path fill="#FFFFFF" d="M11 3h1v1h-1zm1 0h1v1h-1zm1 0h1v1h-1z"/><path fill="#C0C0C0" d="M14 3h1v1h-1zM0 4h1v1H0zm1 0h1v1H1z"/><path fill="#FFFFFF" d="M2 4h1v1H2zm1 0h1v1H3zm1 0h1v1H4z"/><path fill="#C0C0C0" d="M5 4h1v1H5zm1 0h1v1H6zm3 0h1v1H9zm1 0h1v1h-1z"/><path fill="#FFFFFF" d="M11 4h1v1h-1zm1 0h1v1h-1zm1 0h1v1h-1z"/><path fill="#C0C0C0" d="M14 4h1v1h-1zm1 0h1v1h-1zM0 5h1v1H0z"/><path fill="#FFFFFF" d="M1 5h1v1H1zm1 0h1v1H2zm1 0h1v1H3zm1 0h1v1H4zm1 0h1v1H5z"/><path fill="#C0C0C0" d="M6 5h1v1H6zm1 0h1v1H7zm1 0h1v1H8zm1 0h1v1H9z"/><path fill="#FFFFFF" d="M10 5h1v1h-1zm1 0h1v1h-1zm1 0h1v1h-1zm1 0h1v1h-1zm1 0h1v1h-1z"/><path fill="#C0C0C0" d="M15 5h1v1h-1zM0 6h1v1H0z"/><path fill="#FFFFFF" d="M1 6h1v1H1zm1 0h1v1H2zm1 0h1v1H3zm1 0h1v1H4zm1 0h1v1H5zm1 0h1v1H6zm1 0h1v1H7zm1 0h1v1H8zm1 0h1v1H9zm1 0h1v1h-1zm1 0h1v1h-1zm1 0h1v1h-1zm1 0h1v1h-1zm1 0h1v1h-1z"/><path fill="#C0C0C0" d="M15 6h1v1h-1zM0 7h1v1H0z"/><path fill="#FFFFFF" d="M1 7h1v1H1zm1 0h1v1H2z"/><path fill="#000000" d="M3 7h1v1H3zm1 0h1v1H4z"/><path fill="#FFFFFF" d="M5 7h1v1H5zm1 0h1v1H6zm1 0h1v1H7zm1 0h1v1H8zm1 0h1v1H9zm1 0h1v1h-1zm1 0h1v1h-1z"/><path fill="#000000" d="M12 7h1v1h-1zm1 0h1v1h-1z"/><path fill="#FFFFFF" d="M14 7h1v1h-1z"/><path fill="#C0C0C0" d="M15 7h1v1h-1zM0 8h1v1H0z"/><path fill="#FFFFFF" d="M1 8h1v1H1zm1 0h1v1H2z"/><path fill="#000000" d="M3 8h1v1H3zm1 0h1v1H4z"/><path fill="#FFFFFF" d="M5 8h1v1H5zm1 0h1v1H6zm1 0h1v1H7z"/><path fill="#FF1493" d="M8 8h1v1H8z"/><path fill="#FFFFFF" d="M9 8h1v1H9zm1 0h1v1h-1zm1 0h1v1h-1z"/><path fill="#000000" d="M12 8h1v1h-1zm1 0h1v1h-1z"/><path fill="#FFFFFF" d="M14 8h1v1h-1z"/><path fill="#C0C0C0" d="M15 8h1v1h-1zM0 9h1v1H0z"/><path fill="#FFFFFF" d="M1 9h1v1H1z"/><path fill="#FF1493" d="M2 9h1v1H2z"/><path fill="#FFFFFF" d="M3 9h1v1H3zm1 0h1v1H4zm1 0h1v1H5z"/><path fill="#000000" d="M6 9h1v1H6z"/><path fill="#FFFFFF" d="M7 9h1v1H7z"/><path fill="#000000" d="M8 9h1v1H8z"/><path fill="#FFFFFF" d="M9 9h1v1H9z"/><path fill="#000000" d="M10 9h1v1h-1z"/><path fill="#FFFFFF" d="M11 9h1v1h-1zm1 0h1v1h-1zm1 0h1v1h-1z"/><path fill="#FF1493" d="M14 9h1v1h-1z"/><path fill="#C0C0C0" d="M15 9h1v1h-1zM0 10h1v1H0z"/><path fill="#FFFFFF" d="M1 10h1v1H1zm1 0h1v1H2zm1 0h1v1H3zm1 0h1v1H4zm1 0h1v1H5z"/><path fill="#000000" d="M6 10h1v1H6zm1 0h1v1H7zm1 0h1v1H8zm1 0h1v1H9zm1 0h1v1h-1z"/><path fill="#FFFFFF" d="M11 10h1v1h-1zm1 0h1v1h-1zm1 0h1v1h-1zm1 0h1v1h-1z"/><path fill="#C0C0C0" d="M15 10h1v1h-1zM0 11h1v1H0zm1 0h1v1H1z"/><path fill="#FFFFFF" d="M2 11h1v1H2zm1 0h1v1H3zm1 0h1v1H4zm1 0h1v1H5zm1 0h1v1H6zm1 0h1v1H7zm1 0h1v1H8zm1 0h1v1H9zm1 0h1v1h-1zm1 0h1v1h-1zm1 0h1v1h-1zm1 0h1v1h-1z"/><path fill="#C0C0C0" d="M14 11h1v1h-1zm1 0h1v1h-1zM1 12h1v1H1zm1 0h1v1H2zm1 0h1v1H3z"/><path fill="#FFFFFF" d="M4 12h1v1H4zm1 0h1v1H5zm1 0h1v1H6zm1 0h1v1H7zm1 0h1v1H8zm1 0h1v1H9zm1 0h1v1h-1zm1 0h1v1h-1z"/><path fill="#C0C0C0" d="M12 12h1v1h-1zm1 0h1v1h-1zm1 0h1v1h-1zM3 13h1v1H3zm1 0h1v1H4zm1 0h1v1H5zm1 0h1v1H6zm1 0h1v1H7zm1 0h1v1H8zm1 0h1v1H9zm1 0h1v1h-1zm1 0h1v1h-1zm1 0h1v1h-1z"/></svg>                        
+                        <span id="cat-container">
+                            <svg id="cat" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges" width="16" height="14" viewBox="0 0 16 14"><path fill="Gainsboro" d="M3 0h1v1H3zm9 0h1v1h-1zM2 1h1v1H2zm1 0h1v1H3zm1 0h1v1H4zm7 0h1v1h-1zm1 0h1v1h-1zm1 0h1v1h-1zM1 2h1v1H1zm1 0h1v1H2z"/><path fill="#FFFFFF" d="M3 2h1v1H3z"/><path fill="Gainsboro" d="M4 2h1v1H4zm1 0h1v1H5zm5 0h1v1h-1zm1 0h1v1h-1z"/><path fill="#FFFFFF" d="M12 2h1v1h-1z"/><path fill="Gainsboro" d="M13 2h1v1h-1zm1 0h1v1h-1zM1 3h1v1H1z"/><path fill="#FFFFFF" d="M2 3h1v1H2zm1 0h1v1H3zm1 0h1v1H4z"/><path fill="Gainsboro" d="M5 3h1v1H5zm5 0h1v1h-1z"/><path fill="#FFFFFF" d="M11 3h1v1h-1zm1 0h1v1h-1zm1 0h1v1h-1z"/><path fill="Gainsboro" d="M14 3h1v1h-1zM0 4h1v1H0zm1 0h1v1H1z"/><path fill="#FFFFFF" d="M2 4h1v1H2zm1 0h1v1H3zm1 0h1v1H4z"/><path fill="Gainsboro" d="M5 4h1v1H5zm1 0h1v1H6zm3 0h1v1H9zm1 0h1v1h-1z"/><path fill="#FFFFFF" d="M11 4h1v1h-1zm1 0h1v1h-1zm1 0h1v1h-1z"/><path fill="Gainsboro" d="M14 4h1v1h-1zm1 0h1v1h-1zM0 5h1v1H0z"/><path fill="#FFFFFF" d="M1 5h1v1H1zm1 0h1v1H2zm1 0h1v1H3zm1 0h1v1H4zm1 0h1v1H5z"/><path fill="Gainsboro" d="M6 5h1v1H6zm1 0h1v1H7zm1 0h1v1H8zm1 0h1v1H9z"/><path fill="#FFFFFF" d="M10 5h1v1h-1zm1 0h1v1h-1zm1 0h1v1h-1zm1 0h1v1h-1zm1 0h1v1h-1z"/><path fill="Gainsboro" d="M15 5h1v1h-1zM0 6h1v1H0z"/><path fill="#FFFFFF" d="M1 6h1v1H1zm1 0h1v1H2zm1 0h1v1H3zm1 0h1v1H4zm1 0h1v1H5zm1 0h1v1H6zm1 0h1v1H7zm1 0h1v1H8zm1 0h1v1H9zm1 0h1v1h-1zm1 0h1v1h-1zm1 0h1v1h-1zm1 0h1v1h-1zm1 0h1v1h-1z"/><path fill="Gainsboro" d="M15 6h1v1h-1zM0 7h1v1H0z"/><path fill="#FFFFFF" d="M1 7h1v1H1zm1 0h1v1H2z"/><path fill="#000000" d="M3 7h1v1H3zm1 0h1v1H4z"/><path fill="#FFFFFF" d="M5 7h1v1H5zm1 0h1v1H6zm1 0h1v1H7zm1 0h1v1H8zm1 0h1v1H9zm1 0h1v1h-1zm1 0h1v1h-1z"/><path fill="#000000" d="M12 7h1v1h-1zm1 0h1v1h-1z"/><path fill="#FFFFFF" d="M14 7h1v1h-1z"/><path fill="Gainsboro" d="M15 7h1v1h-1zM0 8h1v1H0z"/><path fill="#FFFFFF" d="M1 8h1v1H1zm1 0h1v1H2z"/><path fill="#000000" d="M3 8h1v1H3zm1 0h1v1H4z"/><path fill="#FFFFFF" d="M5 8h1v1H5zm1 0h1v1H6zm1 0h1v1H7z"/><path fill="#FF1493" d="M8 8h1v1H8z"/><path fill="#FFFFFF" d="M9 8h1v1H9zm1 0h1v1h-1zm1 0h1v1h-1z"/><path fill="#000000" d="M12 8h1v1h-1zm1 0h1v1h-1z"/><path fill="#FFFFFF" d="M14 8h1v1h-1z"/><path fill="Gainsboro" d="M15 8h1v1h-1zM0 9h1v1H0z"/><path fill="#FFFFFF" d="M1 9h1v1H1z"/><path fill="#FF1493" d="M2 9h1v1H2z"/><path fill="#FFFFFF" d="M3 9h1v1H3zm1 0h1v1H4zm1 0h1v1H5z"/><path fill="#000000" d="M6 9h1v1H6z"/><path fill="#FFFFFF" d="M7 9h1v1H7z"/><path fill="#000000" d="M8 9h1v1H8z"/><path fill="#FFFFFF" d="M9 9h1v1H9z"/><path fill="#000000" d="M10 9h1v1h-1z"/><path fill="#FFFFFF" d="M11 9h1v1h-1zm1 0h1v1h-1zm1 0h1v1h-1z"/><path fill="#FF1493" d="M14 9h1v1h-1z"/><path fill="Gainsboro" d="M15 9h1v1h-1zM0 10h1v1H0z"/><path fill="#FFFFFF" d="M1 10h1v1H1zm1 0h1v1H2zm1 0h1v1H3zm1 0h1v1H4zm1 0h1v1H5z"/><path fill="#000000" d="M6 10h1v1H6zm1 0h1v1H7zm1 0h1v1H8zm1 0h1v1H9zm1 0h1v1h-1z"/><path fill="#FFFFFF" d="M11 10h1v1h-1zm1 0h1v1h-1zm1 0h1v1h-1zm1 0h1v1h-1z"/><path fill="Gainsboro" d="M15 10h1v1h-1zM0 11h1v1H0zm1 0h1v1H1z"/><path fill="#FFFFFF" d="M2 11h1v1H2zm1 0h1v1H3zm1 0h1v1H4zm1 0h1v1H5zm1 0h1v1H6zm1 0h1v1H7zm1 0h1v1H8zm1 0h1v1H9zm1 0h1v1h-1zm1 0h1v1h-1zm1 0h1v1h-1zm1 0h1v1h-1z"/><path fill="Gainsboro" d="M14 11h1v1h-1zm1 0h1v1h-1zM1 12h1v1H1zm1 0h1v1H2zm1 0h1v1H3z"/><path fill="#FFFFFF" d="M4 12h1v1H4zm1 0h1v1H5zm1 0h1v1H6zm1 0h1v1H7zm1 0h1v1H8zm1 0h1v1H9zm1 0h1v1h-1zm1 0h1v1h-1z"/><path fill="Gainsboro" d="M12 12h1v1h-1zm1 0h1v1h-1zm1 0h1v1h-1zM3 13h1v1H3zm1 0h1v1H4zm1 0h1v1H5zm1 0h1v1H6zm1 0h1v1H7zm1 0h1v1H8zm1 0h1v1H9zm1 0h1v1h-1zm1 0h1v1h-1zm1 0h1v1h-1z"/></svg>                        
+                        </span>
                     </div>
                     <div id="title">
                         I'm Andrea Arias
                     </div>
                     <div id="subtitle">
-                        <i>A passionate developer 💻, a code <span id="fire">fire</span> <span id="fire-icon">🔥</span> extinguisher 🧯 and a pursuer of new challenges in software development 🚀</i>
+                        <i>A passionate developer 💻, a code <span id="fire">fire</span> <span id="fire-icon">🔥</span> extinguisher 🧯 and a pursuer of new challenges in software dev 🚀</i>
                     </div>
                 </div>
             </div>
