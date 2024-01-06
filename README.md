@@ -1,10 +1,10 @@
-[<img src="banner.svg" width="100%"/>](# "Hi 🖐️")
+[<img src="banner.svg" width="100%" height="430px"/>](# "Hi 🖐️")
 
-## Currently...
+# Currently...
 
-:hammer_and_wrench: **I'm working on** [Galactic Gazette :man_astronaut:](https://github.com/GalacticGazette) project  
-:brain: **I´m learning about** front-end development  
-:speech_balloon: **Ask me about...:**
+:hammer_and_wrench: **I'm working on...** <!--[Galactic Gazette :man_astronaut:](https://github.com/GalacticGazette) project, a React web site about space  -->  
+:brain: **I´m learning about...** <!--front-end development-->  
+:speech_balloon: **Ask me about...:**    
 
 - Object Oriented Programming (OOP)
 - Design patterns
