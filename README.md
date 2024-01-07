@@ -6,9 +6,11 @@
 :brain: **I´m learning about** front-end development.  
 :speech_balloon: **Ask me about...:**  
 
-- Object Oriented Programming (OOP)
-- Design patterns
-- Data structures
+[//]: # (Algorithms)
+- `OOP` (Object Oriented Programming)
+- `Design patterns:` Factory, Singleton, Observer, Model-View-Controller
+- `Data structures:` Lists, stacks, queues, trees
+- `Algorithms` 
 - [My skills](#skills)  
 
 :email: **How to reach me:** andrecat-@outlook.com.  
@@ -18,40 +20,47 @@
 
 > :gear: **Back-End**
 >
-> |[![java]](#)|[![python]](#)|
-> |:-:|:-:|
-> |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Java`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;`Python`&nbsp;&nbsp;&nbsp;&nbsp;|
+> |[![java]](#)       |[![python]](#)     |
+> |:-----------------:|:-----------------:|
+> |<pre>  Java  </pre>|<pre> Python </pre>|
+>
+> |[![oracle-sql]](#)   |[![sql-server]](#)   |[![postgresql]](#)   |
+> |:-------------------:|:-------------------:|:-------------------:|
+> |<pre>ORACLE SQL</pre>|<pre>SQL Server</pre>|<pre>PostgreSQL</pre>|
 
 > :framed_picture: **Front-End**
-> |[![react]](#)|[![typescript]](#)|
-> |:-:|:-:|
-> |&nbsp;&nbsp;&nbsp;&nbsp;`React`&nbsp;&nbsp;&nbsp;&nbsp;|`TypeScript`|
+>
+> |[![react]](#)     |[![typescript]](#)   |
+> |:----------------:|:-------------------:|
+> |<pre> React </pre>|<pre>TypeScript</pre>|
 >    
-> |[![html]](#)|[![css]](#)|[![javascript]](#)|
-> |:-:|:-:|:-:|
-> |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`HTML`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`CSS`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|`JavaScript`|
+> |[![html]](#)       |[![css]](#)         |[![javascript]](#)   |
+> |:-----------------:|:------------------:|:-------------------:|
+> |<pre>  HTML  </pre>|<pre>   CSS   </pre>|<pre>JavaScript</pre>|
 
 > :joystick: **Game Development**
 >
-> |[![unity]](#)|[![c-sharp]](#)|[![blender]](#)|
-> |:-:|:-:|:-:|
-> |&nbsp;&nbsp;&nbsp;&nbsp;`Unity`&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`C#`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;`Blender`&nbsp;&nbsp;&nbsp;|
+> |[![unity]](#)       |[![csharp]](#)     |[![blender]](#)     |
+> |:------------------:|:-----------------:|:------------------:|
+> |<pre>  Unity  </pre>|<pre>   C#   </pre>|<pre> Blender </pre>|
 
-> :bulb: **Others**
->> _Version control_
->> |[![git]](#)|
->> |:----:|
->> |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Git`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+> :man_technologist: **Programming**
 >
->> _Markup_
->> |[![markdown]](#)|
->> |:---------:|
->> |&nbsp;`Markdown`&nbsp;|
+> |[![visual-basic]](#)   |[![matlab]](#)     |
+> |:---------------------:|:-----------------:|
+> |<pre>Visual Basic</pre>|<pre> Matlab </pre>|
+
+> :clock3: **Version control**
 >
->> _Diagrams_
->> |[![mermaid]](#)|
->> |:--------:|
->> |&nbsp;&nbsp;&nbsp;`Mermaid`&nbsp;&nbsp;&nbsp;|
+> |[![git]](#)         |
+> |:------------------:|
+> |<pre>   Git   </pre>|
+
+> :bulb: **Other**
+>
+> |[![latex]](#)       |[![markdown]](#)   |[![mermaid]](#)     |
+> |:------------------:|:-----------------:|:------------------:|
+> |<pre>  Latex  </pre>|<pre>Markdown</pre>|<pre> Mermaid </pre>|
 
 ## Networks
 
@@ -68,6 +77,9 @@
 <!-- Languages -->
 [java]: icons/skills/java.svg "Java"
 [python]: icons/skills/python.svg "Python"
+[oracle-sql]: icons/skills/oracle-sql.svg "ORACLE SQL"
+[sql-server]: icons/skills/sql-server.svg "SQL Server"
+[postgresql]: icons/skills/postgre-sql.svg "PostgreSQL"
 
 [react]: icons/skills/react.svg "React"
 [typescript]: icons/skills/typescript.svg "TypeScript"
@@ -76,10 +88,14 @@
 [javascript]: icons/skills/javascript.svg "JavaScript"
 
 [unity]: icons/skills/unity.svg "Unity"
-[c-sharp]: icons/skills/c-sharp.svg "CSharp"
+[csharp]: icons/skills/csharp.svg "CSharp"
 [blender]: icons/skills/blender.svg "Blender"
 
+[visual-basic]: icons/skills/visual-basic.svg "Visual Basic"
+[matlab]: icons/skills/matlab.svg "Matlab"
+
 [git]: icons/skills/git.svg "Git"
+[latex]: icons/skills/latex.svg "Latex"
 [markdown]: icons/skills/markdown.svg "Markdown"
 [mermaid]: icons/skills/mermaid.svg "Mermaid"
 
