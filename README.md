@@ -1,17 +1,17 @@
-[<img src="banner.svg" width="100%" height="430px"/>](# "Hi 🖐️")
+[<img src="banner.svg" width="100%" height="450px"/>](# "Hi 🖐️")
 
 # Currently...
 
-:hammer_and_wrench: **I'm working on...** <!--[Galactic Gazette :man_astronaut:](https://github.com/GalacticGazette) project, a React web site about space  -->  
-:brain: **I´m learning about...** <!--front-end development-->  
-:speech_balloon: **Ask me about...:**    
+:hammer_and_wrench: **I'm working on** [Galactic Gazette :man_astronaut:](https://github.com/GalacticGazette) project, a React web site about space.  
+:brain: **I´m learning about** front-end development.  
+:speech_balloon: **Ask me about...:**  
 
 - Object Oriented Programming (OOP)
 - Design patterns
 - Data structures
 - [My skills](#skills)  
 
-:email: **How to reach me:** andrecat-@outlook.com  
+:email: **How to reach me:** andrecat-@outlook.com.  
 :dizzy: **Fun fact:** I’m known as a fire extinguisher 🔥🧯 in programming because I’m really good at fixing critical bugs. A colleague from [Sweet Rebellion][sweet-rebellion] and [Animal Word Match][animal-word-match] games gave me that nickname.
 
 ## Skills

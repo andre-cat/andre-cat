@@ -120,8 +120,8 @@
                     top: 50%;
                     left: 50%;
                     transform: translate(-50%, -50%);
-                    width: 113%;
-                    height: 121%;
+                    width: 100%;
+                    height: 100%;
                     background: 
                         radial-gradient(rgba(0, 250, 250, 0.1), transparent 70%),
                         radial-gradient(rgba(0, 235, 251, 0.1), transparent 70%),
@@ -260,7 +260,7 @@
 
                     #subtitle {
                         font-size: 6vh;
-                        font-weight: 300;
+                        font-weight: 200;
                     }
                 }
 
@@ -279,7 +279,7 @@
 
                     #subtitle {
                         font-size: 4vh;
-                        font-weight: 500;
+                        font-weight: 300;
                     }
                 }
             </style>
