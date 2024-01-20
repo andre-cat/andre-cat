@@ -1,16 +1,16 @@
-[<img src="banner.svg" width="100%" height="450px"/>](# "Hi 🖐️")
+[<img src="banner.svg" width="100%" height="500px"/>](# "Hi 🖐️")
 
 # Currently...
 
-:hammer_and_wrench: **I'm working on** [Galactic Gazette :man_astronaut:](https://github.com/GalacticGazette) project, a React web site about space.  
-:brain: **I´m learning about** front-end development.  
-:speech_balloon: **Ask me about...:**  
+:hammer_and_wrench: **I'm working on...** <!--[_Galactic Gazette_ :man_astronaut:](https://github.com/GalacticGazette) project, a React web site about space.-->  
+:brain: **I´m learning about...** <!--_front-end_ development.-->  
+:speech_balloon: **Ask me about...** <!--:-->
 
 [//]: # (Algorithms)
-- `OOP` (Object Oriented Programming)
-- `Design patterns:` Factory, Singleton, Observer, Model-View-Controller
-- `Data structures:` Lists, stacks, queues, trees
-- `Algorithms` 
+- _OOP_ (Object Oriented Programming)
+- _Design patterns:_ Factory, Singleton, Observer, Model-View-Controller
+- _Data structures:_ Lists, stacks, queues, trees
+- Algorithms 
 - [My skills](#skills)  
 
 :email: **How to reach me:** andrecat-@outlook.com.  

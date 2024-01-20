@@ -12,7 +12,7 @@ def write_file(file_name : str, text: str) -> None:
 def generate_dots(quantity : int, range_x: Tuple[int, int], range_y: Tuple[int, int], colors: list[str]) -> str:
 
     dots = "";
-
+    
     for i in range(quantity):
         x : int = get_random(range_x[0], range_x[1]);
         y : int = get_random(range_y[0], range_y[1]);
